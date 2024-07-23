@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1 - Pagina Inicial</title>
+    
+</head>
+<body>
+    <hr>
+    <h1 id="titulo">HiperText Markup Language - HTML, a estrutura básica da internet.</h1>
+    <hr>
+    <ol id="0">
+        <li><a href="#1">O que é HTML</a></li>
+        <li><a href="#2">Tags básicas</a></li>
+        <li><a href="#3">Recomendações</a></li>
+        <li><a href="#4">Documentação</a></li>
+    </ol>
+    
+    <h2 id="#1">O que é html</h2><a href="#0"><small>(Voltar)</small></a>
+    <div>
+        <p>
+            HiperText Markup Language, ou simplesmente HTML, é a linguagem básica da web. Com ela é possivel criar sites completos, adicionando titulos, textos, mídia, tabelas, e etc.<br>
+            Ao contrário do que se pensa, HTML não é uma linguagem de programação, mas sim de marcação, que utiliza-se de tags para delimitar elementos. <br>
+            De forma simples, as tags são como se fossem pontuações do Português, que nos ajuda a compreender o sentido que o autor quis passar. Dessa forma é preciso conhecer bem essas tags para desenvolver sites que sejam visualmente bonitos e eficientes.<br>
+            A forma correta de usar as tags são colocando o nome da tag entre os simbolos de maior e menor no início do elemento, e uma barra com o nome da tag no fim do elemento, entre os simbolos de maior e menor. <br>
+            Elemento é todo e qualquer conteúdo que se queira inserir na pagina, como um símples parágrafo, uma imagem, uma tabela... <br>
+            Abaixo uma pequena demonstração de um código HTML
+            <br><br>
+            <code>
+                &lt;p&gt;Isto é um parágrafo&lt;/p&gt;
+            </code>
+
+        </p>
+    </div>
+    <h2 id="2">Tags básicas</h2><a href="#0"><small>(Voltar)</small></a> <br><br>
+        <h3>Tags h1 a h6</h3>
+        <p>Tags h1 a h6 são tags título. Com elas um determinado trecho de texto adquire formatação e destaque diferente dos demais. Ex: </p>
+        <h1>Titulo 1</h1>
+        <h2>Titulo 2</h2>
+        <h3>Titulo 3</h3>
+        <h4>Titulo 4</h4>
+        <h5>Titulo 5</h5>
+        <h6>Titulo 6</h6>
+        <br>
+        <h3>Tag p</h3>
+        <p>A tag p, como já foi mostrado acima, é uma tag que comporta um paragrafo, ou seja, um trecho de texto com formatação e destaque diferente das tags h1 a h6. Esta pequena explicação é um exemplo do uso da tag p</p>
+        <br>
+        <h3>Tag mark </h3>
+        <p>A tag mark serve para destacar um trecho de código, muito parecido com um marcador. Ex:</p>
+        <p>Este é um trecho qualquer, <mark>mas esta parte merece destaque visual.</mark> </p><br>
+        <h3>Tag small </h3>
+        <p>A tag small serve para diminuirmos um trecho de texto. Ex: </p>
+        <p>Esta parte está em tamanho padrão, <small>mas esta parte deve ser menor.</small></p><br>
+        <h3>Tag i</h3>
+        <p>A tag i destaca um trecho de texto para <i>itálico</i>.</p><br>
+        <h3>Tag u </h3>
+        <p>a tag u determina que um determinado trecho deve ficar <u>sublinhado</u>.</p><br>
+        <h3>Tag strong </h3>
+        <p>A tag strong dá outro tipo de destaque para um trecho de texto. Com isso uma palavra <strong>forte</strong> receberia uma formatação em negrito.</p><br>
+        <h3>Tag ol, ul e suas filhas li</h3>
+        <p>As tags ol e ul são tags para listagem de algo. A diferença entre elas é que uma é numéricamente ordenada (ol) e outra não. Ambas recebem uma lista de itens (li) em seu interior. Ex:</p>
+        <ol>
+            <p>Lista Ordenada</p>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <ul>
+            <p>Lista não ordenada</p>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <br>
+        <h3>Tag a </h3>
+        <p>A tag a, ou tag âncora, é utilizada quando se quer criar uma área clicável. É possível acessar conteúdos internos da mesma página, conteúdos internos do mesmo site ou conteúdos externos, de outros sites. Ex: </p>
+        <a href="#titulo">Conteúdo interno da mesma página (Titulo Principal)</a><br>
+        <a href="outrapagina.html">Conteúdo interno do mesmo site (Outra página do site)</a><br>
+        <a href="https://www.dio.me/careers/front-end">Conteúdo externo (Formação em Front-end DIO)</a>
+        <br>
+        <h3>Tag hr </h3>
+        <p>A tag hr cria esta linha horizontal <hr></p>
+        <br>
+        <h3>Tags sup e sub</h3>
+        <p>As tags sub e sub servem para adicionar algum conteúdo acima ou abaixo da linha básica de um elemento. Ex: <br>
+            Para potências: 10<sup>2</sup> <br>
+            Para fórmulas químicas: H<sub>2</sub>O
+        </p><br>
+        <h3>Tag blockquote </h3>
+        <p>A tag blockquote é usada quando quer fazer uma longa citação. Ex: <br>
+            <blockquote>
+                "Muito além, nos confins inexplorados da região mais brega da Borda Ocidental desta Galáxia, há um pequeno sol amarelo e esquecido. <br> Girando em torno deste sol, a uma distância de cerca de 148 milhões de quilômetros, há um planetinha verde-azulado absolutamente insignificante, cujas formas de vida, descendentes de primatas, são tão extraordinariamente primitivas que ainda acham que relógios digitais são uma grande idéia. <br> Este planeta tem - ou melhor, tinha - o seguinte problema: a maioria de seus habitantes estava quase sempre infeliz. Foram sugeridas muitas soluções para esse problema, mas a maior parte delas dizia respeito basicamente à movimentação de pequenos pedaços de papel colorido com números impressos, o que é curioso, já que no geral não eram os tais pedaços de papel colorido que se sentiam infelizes. <br> E assim o problema continuava sem solução. Muitas pessoas eram más, e a maioria delas era muito infeliz, mesmo as que tinham relógios digitais. <br> Um número cada vez maior de pessoas acreditava que havia sido um erro terrível da espécie descer das árvores. Algumas diziam que até mesmo subir nas árvores tinha sido uma péssima idéia, e que ninguém jamais deveria ter saído do mar. <br> E, então, uma quinta-feira, quase dois mil anos depois que um homem foi pregado num pedaço de madeira por ter dito que seria ótimo se as pessoas fossem legais umas com as outras para variar, uma garota, sozinha numa pequena lanchonete em Rickmansworth, de repente compreendeu o que tinha dado errado todo esse tempo e finalmente descobriu como o mundo poderia se tornar um lugar bom e feliz. Desta vez estava tudo certo, ia funcionar, e ninguém teria que ser pregado em coisa nenhuma. <br> Infelizmente, porém, antes que ela pudesse telefonar para alguém e contar sua descoberta, aconteceu uma catástrofe terrível e idiota, e a idéia perdeu-se para todo o sempre. <br> Esta não é a história dessa garota. <br> É a história daquela catástrofe terrível e idiota, e de algumas de suas conseqüências. <br> É também a história de um livro, chamado O Guia do Mochileiro das Galáxias - um livro que não é da Terra, jamais foi publicado na Terra e, até o dia em que ocorreu a terrível catástrofe, nenhum terráqueo jamais o tinha visto ou sequer ouvido falar dele. <br> Apesar disso, é um livro realmente extraordinário. <br> Na verdade, foi provavelmente o mais extraordinário dos livros publicados pelas grandes editoras de Ursa Menor - editoras das quais nenhum terráqueo jamais ouvira falar, também. <br> O livro é não apenas uma obra extraordinária como também um tremendo bestseller - mais popular que a <strong>Enciclopédia Celestial do Lar</strong>, mais vendido que <strong>Mais Cinquenta e Três Coisas para se Fazer em Gravidade Zero</strong>, e mais polêmico que a colossal trilogia filosófica de Oolonn Colluphid, <strong>Onde Deus Errou</strong>, <strong>Mais Alguns Grandes Erros de Deus</strong> e <strong>Quem É Esse Tal de Deus Afinal?</strong><br> Em muitas das civilizações mais tranqüilonas da Borda Oriental da Galáxia, O Guia do Mochileiro das Galáxias já substituiu a grande Enciclopédia Galáctica como repositório-padrão de todo conhecimento e sabedoria, pois ainda que contenha muitas omissões e textos apócrifos, ou pelo menos terrivelmente incorretos, ele é superior à obra mais antiga e mais prosaica em dois aspectos importantes. <br> Em primeiro lugar, é ligeiramente mais barato; em segundo lugar, traz impressa na capa, em letras garrafais e amigáveis, a frase <strong><mark>NÃO ENTRE EM PÂNICO</mark></strong>. <br> Mas a história daquela quinta-feira terrível e idiota, a história de suas extraordinárias conseqüências, a história das interligações inextricáveis entre estas conseqüências e este livro extraordinário - tudo isso teve um começo muito simples. <br> Começou com uma casa"
+                <br><br>
+                Prefácio do livro O Guia do Mochileiro das Galáxias, de Douglas Adams
+            </blockquote>
+            <br>
+            <h3>Tag font </h3>
+            <p>Ao longo do desenvolvimento da linguagem HTML algumas tags deixaram de receberem atualizações e alguns navegadores deixaram de interpretarem elas, sendo não recomendado o uso delas nos atuais sites. Um exemplo de tag assim é a tag font. Ela é uma tag especial que era usada para mudar a fonte, o tamanho e a cor de um determinado trecho de texto. Ex</p>
+            <font color="red" face="Arial,Helvetica,sans-serif" size="4"> Exemplo de uso da tag font. Neste exemplo foi escolhido a cor vermelha, a fonte Arial do tipo sans-serif, e tamanho de 4 px</font><br>
+            <h3>Tag del</h3>
+            <p>A tag del é utilizada para riscar uma parte do texto ao meio. Ex:</p>
+            <del>Exemplo de texto riscado</del>
+            <br>
+            <h3>Tag abbr</h3>
+            <p>A tag abbr é uma tag de abreviaturas onde é possível por uma pequena descrição que ficará visível quando o mouse ficar sobre o elemento abreviado. Ex</p>
+            <p>Obama é presidente dos <abbr title="Estados Unidos da América">EUA</abbr></p>
+        </p>
+        <br><br>
+    <h2 id="3">Algumas Recomendações</h2><a href="#0"><small>(Voltar)</small></a>
+    <p>Para o desenvolvimento do conhecimento em HTMl é importante que outras tag sejam estudadas, <br> como as section, div, nav, aside, e assim por diante.</p>
+    <p>Todas essas tags, e muitas outras, podem ser estudadas a partir da Documentação oficial da MDN web Documents e da w3schools.</p>
+    <p>Para além do HTML, é importante conhecer também o CSS, que é uma linguagem de estilos, que complementa o HTML, <br> dando um pouco mais de beleza à sua página web, e JavaScrip, que é uma linguagem de programação web que adiciona funcionalidades e dinamicidade as suas páginas, deixando-as mais atrativas e divertidas.</p>
+    <p>Com o domínio dessas três linguagens você pode se tornar um profissional de Front-end e dar continuidade aos estudos, aprimorando suas páginas com conhecimentos de UI/UX.</p>
+    <p></p>
+    <h2 id="4">Documentação</h2><a href="#0"><small>(Voltar)</small></a>
+    <p>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN Web Documents - HTML</a><br>
+        <a href="https://www.w3schools.com/html/default.asp"> w3schools - HTML</a>
+    </p>
+</body>
+</html>
